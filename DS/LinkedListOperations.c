@@ -138,7 +138,7 @@ int main(){
     head=reverse(head);
     display(head);
 
-    printf("\n Reversed List: \n");
+    printf("\n Sorted List: \n");
     Node* headS = CreateNode(4);
     Insert(headS, 1);
     Insert(headS, 3);
