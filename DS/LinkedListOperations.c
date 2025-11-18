@@ -124,7 +124,6 @@ int main(){
     Insert(head,2);
     Insert(head,3);
     Insert(head,4);
-    Insert(head,4);
     
     Node* head2= CreateNode(5);
     Insert(head2,6);
