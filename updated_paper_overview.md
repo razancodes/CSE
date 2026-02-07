@@ -84,7 +84,6 @@ flowchart LR
 | Max Epochs | 75 |
 | Precision | Mixed (FP16) |
 | Encoder Freeze | First 5 epochs |
-| Class Weights | Cotton: 3.0, Paddy: 1.0 (to address imbalance) |
 | LR Scheduler | ReduceLROnPlateau (factor=0.2, patience=3) |
 | Early Stopping | Patience=15, monitor=val_accuracy |
 
@@ -246,3 +245,4 @@ augmentation:
 1. Allen AI. (2024). OlmoEarth: A Foundation Model for Earth Observation. Hugging Face.
 2. European Space Agency. Sentinel-1 Mission. https://sentinel.esa.int/
 3. Microsoft Planetary Computer. https://planetarycomputer.microsoft.com/
+
